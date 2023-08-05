@@ -90,7 +90,7 @@ header p{
 .sectionPrincipal .titulo-parrafo-principal{
   width: 50%;
   margin: 0 auto;
-  padding: 2.5rem;
+  padding: 5rem 2.5rem 2.5rem 2.5rem;
   text-align: center;
   font-family: 'Bayon', sans-serif;
 }
@@ -102,16 +102,12 @@ header p{
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
-
-.contenedor-cards{ 
-  
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 2.5rem;
-  gap: 2.5rem;
-
+.card-body{
+  font-family: 'Bayon', sans-serif;
+}
+.card-body p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 .card{
   width: 30%;
@@ -120,17 +116,12 @@ header p{
   text-align: center; 
   box-shadow: 0 0 10px rgb(186, 69, 94);
   border-radius: 1rem;
+}
 
-}
-.contenedor-cards h2{
-  font-family: 'bayon', sans-serif;
-}
-.contenedor-cards p{
-  font-family: 'Poppins', sans-serif;
-}
 .terceraSection{
   display: flex;
   justify-content: space-around;
+  padding: 3.125rem;
 }
 
 .terceraSection .card-texto{
