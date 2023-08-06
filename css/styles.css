@@ -131,6 +131,7 @@ header p{
 .terceraSection{
   display: flex;
   justify-content: space-around;
+  margin:3.125rem;
 }
 
 .terceraSection .card-texto{
@@ -159,7 +160,7 @@ header p{
   font-family: 'Bayon', sans-serif;
   padding: 10px;
   background-color:#ba455e;
-  border-radius: 50px 0 50px 0;
+  border-radius: 50px 50px 50px 50px;
   
     
 }
