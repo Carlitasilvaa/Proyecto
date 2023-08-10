@@ -22,12 +22,11 @@ header{
   background-image:url("../assets/img/fondo.jpg");
   background-size: cover;
 }
-.container-img{
-  width: 10vw;
-}
+
 .img-logo{
   width: 100%;
   height: 100%;
+
 }
 header h1{
   text-align: center;
@@ -40,6 +39,17 @@ header p{
   text-align: center;
   font-size: 1.25rem;
 
+}
+.navbar>.container{
+  justify-content: space-around;
+
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.container{
+  justify-content: space-around;
+align-items: center;
 }
 .navbar{
   display: flex;
@@ -60,10 +70,7 @@ header p{
   font-size: 1.25rem;
 
 }
-.navbar li a:hover{
-  color: rgb(1, 1, 24);
-  transition: .5s;
-}
+
 .titulo-general{
   padding: 10vh 0;
   color: white;
@@ -86,11 +93,12 @@ header p{
 
 .sectionPrincipal{
   display: flex;
+  width: 100%;
 }
 .sectionPrincipal .titulo-parrafo-principal{
   width: 50%;
   margin: 0 auto;
-  padding: 2.5rem;
+  padding: 5rem 2.5rem 2.5rem 2.5rem;
   text-align: center;
   font-family: 'Bayon', sans-serif;
 }
@@ -102,16 +110,12 @@ header p{
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
-
-.contenedor-cards{ 
-  
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 2.5rem;
-  gap: 2.5rem;
-
+.card-body{
+  font-family: 'Bayon', sans-serif;
+}
+.card-body p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 .card{
   width: 30%;
@@ -120,18 +124,15 @@ header p{
   text-align: center; 
   box-shadow: 0 0 10px rgb(186, 69, 94);
   border-radius: 1rem;
-
 }
-.contenedor-cards h2{
-  font-family: 'bayon', sans-serif;
-}
-.contenedor-cards p{
-  font-family: 'Poppins', sans-serif;
+.row{
+margin: 20px;
 }
 .terceraSection{
   display: flex;
   justify-content: space-around;
   margin:3.125rem;
+  padding: 3.125rem;
 }
 
 .terceraSection .card-texto{
@@ -176,6 +177,7 @@ footer{
 }
 .descripcionPie{
   width: 50%;
+  padding: 2.5rem 2.5rem 2.5rem 3.75rem;
   margin: 0 auto;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -187,7 +189,7 @@ footer{
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  padding: 2.5rem;
+  padding: 5rem 2.5rem 2.5rem 2.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   color: white;
@@ -284,10 +286,18 @@ padding: 1.875rem;
   font-weight: bold;
   padding: 3.125rem;
 }
+.contenedor-cards {
+  display: flex;
+  flex-direction: row ;
+}
 
 .imagenFinal{
   width: 30%;
   margin: 0 auto;
+}
+.imagenFinal img {
+  display: flex;
+padding: 5rem 1.25rem 1.25rem 5rem;
 }
 /*fin de main*/
 
@@ -403,12 +413,14 @@ margin: 20% 0 20% 0;
 
 .formulario{
   text-align: center;
+padding-left: 10%;
 margin: 20% 15% 15% 15%;
 font-family: 'Bayon', sans-serif;
 box-shadow: 10px 5px 5px 10px  #ba455e;
 }
- 
-#nombre{ width: 30%;
+
+#nombre{
+ width: 30%;
 border: none;
 border-bottom: 1px solid #ba455e;
 padding: 10px;}
@@ -416,17 +428,19 @@ padding: 10px;}
   border: none;
   border-bottom: 1px solid rgb(187, 68, 94);
 padding: 10px;}
-#telefono{ width: 30%;
+#telefono{
+  width: 30%;
   border: none;
   border-bottom: 1px solid rgb(187, 68, 94);
 padding: 10px;}
-#comentario{ width: 30%;
+#comentario{ 
+  width: 30%;
   border: none;
   border-bottom: 1px solid #bb445e;
 padding: 10px;}
 
 .botonFormulario{
-  display: flex;
+
 text-align: center;
 justify-content: center;
 margin: 3.125rem;
@@ -439,15 +453,44 @@ margin: 3.125rem;
 
 
 
+
+
+
+
+
 @media(max-width:1024px){
+  .navbar>.container{
+    justify-content: space-around;
+  
+  }
 .contenedor-cards{
   border-radius: 50px;
 }
 .card{
   background-color: #bb445e;
 }
+
 }
+
+
+
+
+
 @media(max-width:768px){
+  .navbar>.container{
+    display: flex;
+flex-direction: column;
+
+  }
+.img-logo{
+
+  width: 100%;
+
+}
+.navbar-collapse {
+  justify-content: center;
+}
+
 .navbar{
   flex-direction: column;
   align-content: center;
@@ -465,10 +508,7 @@ flex-direction: column;
   text-align: justify;
 
 }
-.card{
-  width: 100%;
-  flex-direction: column;
-}
+
 .gridCuerpo{
 grid-template: repeat(4,1fr) / 1fr;
 
@@ -485,22 +525,43 @@ grid-template: repeat(4,1fr) / 1fr;
 
   
 }
+.descripcionPie{
+  display: flex;
 }
-@media(max-width:480px){
-  .navbar{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
 
+
+}
+
+/*@media(max-width:425px){
+  .navbar>.container { display: flex;
+}*/
+
+
+
+
+@media(max-width:320px){
+/*navbar*/
+.navbar>.container {
+    display: flex;
+    flex-direction: row;
   }
+  /* index*/
   .sectionPrincipal{
-    flex-direction: column;
+    flex-direction: column ;
+  }
+  .titulo-general{
+    padding: 3.125rem;
+  }
+
+  .parrafo-titulo{
+    display: none;
   }
   .sectionPrincipal .titulo-parrafo-principal{
     padding: 1rem;
   }
   .terceraSection {
     flex-direction: column;
+    text-align: center;
 
 }
 .terceraSection .card-texto{
@@ -508,8 +569,29 @@ width: 100%;
 }
 .card-texto p{ text-align: center;}
 .img1{
+  width: 100%;
+}
+.img-logo{
+  width: 40%;
+}
+.footer-responsive{
+  flex-direction: column;
+}
+.descripcionPie{
+  display: none;
+}
+.contactoPie{
+  width: 100%;
+}
+/*quienes somos*/
+.gridCuerpo{
+display: grid;
 width: 100%;
-  margin: 1rem;
+grid-template-rows: 18.75rem 31.25rem 18.75rem 40.625rem;
+grid-template-columns:100%;
+justify-items: center;}
+.gridImgSecundaria{
+  width: 100%;
 }
 
 }
