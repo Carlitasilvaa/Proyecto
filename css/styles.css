@@ -285,10 +285,18 @@ padding: 1.875rem;
   font-weight: bold;
   padding: 3.125rem;
 }
+.contenedor-cards {
+  display: flex;
+  flex-direction: row ;
+}
 
 .imagenFinal{
   width: 30%;
   margin: 0 auto;
+}
+.imagenFinal img {
+  display: flex;
+padding: 5rem 1.25rem 1.25rem 5rem;
 }
 /*fin de main*/
 
@@ -404,12 +412,14 @@ margin: 20% 0 20% 0;
 
 .formulario{
   text-align: center;
+padding-left: 10%;
 margin: 20% 15% 15% 15%;
 font-family: 'Bayon', sans-serif;
 box-shadow: 10px 5px 5px 10px  #ba455e;
 }
- 
-#nombre{ width: 30%;
+
+#nombre{
+ width: 30%;
 border: none;
 border-bottom: 1px solid #ba455e;
 padding: 10px;}
@@ -417,17 +427,19 @@ padding: 10px;}
   border: none;
   border-bottom: 1px solid rgb(187, 68, 94);
 padding: 10px;}
-#telefono{ width: 30%;
+#telefono{
+  width: 30%;
   border: none;
   border-bottom: 1px solid rgb(187, 68, 94);
 padding: 10px;}
-#comentario{ width: 30%;
+#comentario{ 
+  width: 30%;
   border: none;
   border-bottom: 1px solid #bb445e;
 padding: 10px;}
 
 .botonFormulario{
-  display: flex;
+
 text-align: center;
 justify-content: center;
 margin: 3.125rem;
@@ -465,6 +477,7 @@ margin: 3.125rem;
 
 @media(max-width:768px){
   .navbar>.container{
+    display: flex;
 flex-direction: column;
 
   }
@@ -518,7 +531,9 @@ grid-template: repeat(4,1fr) / 1fr;
 
 }
 
-
+/*@media(max-width:425px){
+  .navbar>.container { display: flex;
+}*/
 
 
 
