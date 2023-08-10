@@ -150,6 +150,9 @@ margin: 20px;
   font-family: 'Bayon', sans-serif;
 
 }
+.img1{display: flex;
+  width: 31.25rem;
+}
 .boton-cuarta-section{
 
   text-align: center;
@@ -256,12 +259,16 @@ padding: 1.875rem;
   padding: 0 0 1.875rem 0;
 }
 .gridParrafo{
-  text-align: center justify;
+  text-align: center ;
   padding: 1.25rem;
 }
 .gridParrafoSecundario{
-  text-align: center justify;
+  text-align: center ;
   padding: 1.25rem;
+}
+.gridParrafoSecundario h2 {
+  font-family: 'Bayon', sans-serif;
+  text-align: center;
 }
 
 /* fin del main*/
@@ -398,8 +405,10 @@ margin: auto;
 }
 
 .tituloParrafoContacto{
-  padding: 4.375rem;
-margin: 20% 0 20% 0;
+  text-align: center;
+
+  padding : 4.375rem;
+margin: 40% 0 20% 0;
 }
 .tituloParrafoContacto h2{
   font-family: 'Bayon', sans-serif;
@@ -407,34 +416,36 @@ margin: 20% 0 20% 0;
 
 }
 .tituloParrafoContacto p{
+  margin:2.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
 
 .formulario{
+
   text-align: center;
-padding-left: 10%;
+padding: 3% 15% 3% 15%;
 margin: 20% 15% 15% 15%;
 font-family: 'Bayon', sans-serif;
 box-shadow: 10px 5px 5px 10px  #ba455e;
 }
 
 #nombre{
- width: 30%;
+ width: 100%;
 border: none;
 border-bottom: 1px solid #ba455e;
 padding: 10px;}
-#email{ width: 30%;
+#email{ width: 100%;
   border: none;
   border-bottom: 1px solid rgb(187, 68, 94);
 padding: 10px;}
 #telefono{
-  width: 30%;
+  width: 100%;
   border: none;
   border-bottom: 1px solid rgb(187, 68, 94);
 padding: 10px;}
 #comentario{ 
-  width: 30%;
+  width: 100%;
   border: none;
   border-bottom: 1px solid #bb445e;
 padding: 10px;}
@@ -443,7 +454,7 @@ padding: 10px;}
 
 text-align: center;
 justify-content: center;
-margin: 3.125rem;
+margin: .625rem;
 }
  .botonFormulario h2{
   font-family: 'Bayon', sans-serif;
@@ -464,10 +475,16 @@ margin: 3.125rem;
   
   }
 .contenedor-cards{
-  border-radius: 50px;
+  border-radius: 3.125rem;
 }
 .card{
   background-color: #bb445e;
+}
+.img1{
+  display: flex;
+  width: 18.75rem;
+  height: 15.625rem;
+
 }
 
 }
@@ -525,6 +542,15 @@ grid-template: repeat(4,1fr) / 1fr;
 
   
 }
+.terceraSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: 30px;
+}
 .descripcionPie{
   display: flex;
 }
@@ -568,9 +594,8 @@ grid-template: repeat(4,1fr) / 1fr;
 width: 100%;
 }
 .card-texto p{ text-align: center;}
-.img1{
-  width: 100%;
-}
+
+
 .img-logo{
   width: 40%;
 }
@@ -587,7 +612,7 @@ width: 100%;
 .gridCuerpo{
 display: grid;
 width: 100%;
-grid-template-rows: 18.75rem 31.25rem 18.75rem 40.625rem;
+grid-template-rows: 18.75rem 31.25rem 18.75rem 18.75rem;
 grid-template-columns:100%;
 justify-items: center;}
 .gridImgSecundaria{
