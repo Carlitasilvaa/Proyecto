@@ -291,20 +291,19 @@ padding: 1.875rem;
 .titulo-parrafo-principal p{
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  padding: 3.125rem;
+  padding: .625rem;
 }
 .contenedor-cards {
   display: flex;
   flex-direction: row ;
 }
 
-.imagenFinal{
-  width: 30%;
-  margin: 0 auto;
-}
-.imagenFinal img {
-  display: flex;
-padding: 5rem 1.25rem 1.25rem 5rem;
+.sectionPrincipal .titulo-parrafo-principal {
+      width: 70%;
+      margin: 0 auto;
+      padding: 5rem 2.5rem 2.5rem 2.5rem;
+      text-align: center;
+      font-family: 'Bayon', sans-serif;
 }
 /*fin de main*/
 
@@ -332,7 +331,7 @@ margin: auto;
 .terceraSectionR{
   display: flex;
   background-color: white;
-  padding: 2.5rem;
+
 }
 .terceraSectionR .tituloParrafoR{
   width: 50%;
@@ -353,17 +352,18 @@ margin: auto;
   
 }
 .imagenFinalR{
+
   width: 30%;
-  margin: 0 auto;
+  margin:10px 200px 70px 0;
   padding: 2.5rem;
 }
 .cuartaSection{
   display: flex;
   background-color: white;
-}
+height: 18.75rem;}
 .cuartaSection .imgFinalR{
   width: 30%;
-  margin: 0 auto;
+  margin:0 10px 150px 70px ;
   padding: 2.5rem;
 }
 .tituloParrafoResultado{
