@@ -1,0 +1,719 @@
+
+
+
+/*
+
+.active{ 
+  border-bottom: .3125rem solid rgb(186, 69, 94);}
+/* fin de base y reseteo 
+
+/* header 
+header{
+ 
+  background-image:url("../assets/img/fondo.jpg");
+  background-size: cover;
+}
+
+.img-logo{
+  width: 100%;
+  height: 100%;
+
+}
+header h1{
+  text-align: center;
+  letter-spacing: .25rem;
+  font-size: 3.125rem;
+  font-family: 'Bayon', sans-serif;
+
+}
+header p{
+  text-align: center;
+  font-size: 1.25rem;
+
+}
+.navbar>.container{
+  justify-content:space-between;
+
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul{
+  list-style: none;
+  display: flex;
+  gap: 1.25rem;
+  font-family: 'Bayon', sans-serif;
+
+
+}
+.navbar li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+
+}
+
+.titulo-general{
+  padding: 10vh 0;
+  color: white;
+}
+.titulo-general p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.titulo-general h1{
+  color:rgb(186, 69, 94);
+
+}
+
+
+
+
+/* fin header */
+
+/* main index */
+
+.sectionPrincipal{
+  display: flex;
+  width: 100%;
+}
+.sectionPrincipal .titulo-parrafo-principal{
+  width: 50%;
+  margin: 0 auto;
+  padding: 5rem 2.5rem 2.5rem 2.5rem;
+  text-align: center;
+  font-family: 'Bayon', sans-serif;
+}
+.sectionPrincipal .parrafo-principal{
+  width: 50%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.card-body{
+  font-family: 'Bayon', sans-serif;
+}
+.card-body p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.card{
+  width: 30%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: center; 
+  box-shadow: 0 0 .625rem rgb(186, 69, 94);
+  border-radius: 1rem;
+}
+.row{
+margin: 1.25rem;
+}
+.terceraSection{
+  display: flex;
+  justify-content: space-around;
+  margin:3.125rem;
+  padding: 3.125rem;
+}
+
+.terceraSection .card-texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.terceraSection .card-texto p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.terceraSection .card-texto h2{
+  font-family: 'Bayon', sans-serif;
+
+}
+.img1{display: flex;
+  width: 31.25rem;
+}
+.boton-cuarta-section{
+
+  text-align: center;
+  margin: 2rem;
+  background-size: cover;
+
+}
+.boton-cuarta-section h3{
+  font-family: 'Bayon', sans-serif;
+  padding: .625rem;
+  background-color:#ba455e;
+  border-radius: 50px 50px 50px 50px;
+  
+    
+}
+
+/* fin main index */
+
+/* footer */
+footer{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+
+
+}
+.descripcionPie{
+  width: 50%;
+  padding: 2.5rem 2.5rem 2.5rem 3.75rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: white;
+
+}
+.contactoPie{
+  width: 50%;
+  padding: 5rem 2.5rem 2.5rem 2.5rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: white;
+
+}
+.contactoPie h2{
+  font-family: 'Bayon', sans-serif;
+
+}
+.info-pie{
+  width: 100%;
+}
+
+
+
+/* fin footer */
+
+
+  
+
+  
+
+
+/* medidas relativas */
+
+/* 
+%: relativo al elemento padre
+em: relativo al tamaño de la fuente del elemento
+rem: relativo al tamaño de la fuente del elemento padre
+vw: relativo al ancho de la ventana viewport width
+vh: relativo al alto de la ventana viewport height
+
+
+*/
+
+/* QUIENES SOMOS HTML*/
+
+/*inicio header*/
+
+.tituloPrincipalqs{
+  padding: 10vh;
+  font-family: 'Bayon', sans-serif;
+  color: white;
+
+}
+.tituloPrincipalqs h1{
+  color:#ba455e;
+}
+/*fin header*/
+
+/*inicio main*/
+.gridCuerpo{
+  background-color: white;
+  display: grid;
+  width: 100%;
+  grid-template: repeat(2,1fr) / repeat(2,1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 1.25rem;
+padding: 1.875rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+
+}
+.gridImgSecundaria{
+  padding: 0 0 1.875rem 0;
+}
+.gridParrafo{
+  text-align: center ;
+  padding: 1.25rem;
+}
+.gridParrafoSecundario{
+  text-align: center ;
+  padding: 1.25rem;
+}
+.gridParrafoSecundario h2 {
+  font-family: 'Bayon', sans-serif;
+  text-align: center;
+}
+
+/* fin del main*/
+
+
+/*COMO TRABAJAMOS HTML*/
+ /* inicio del header*/
+.tituloPrincipalct{
+  padding: 10vh;
+  font-family: 'Bayon', sans-serif;
+  color: white;
+
+}
+.tituloPrincipalct h1{
+  color: #ba455e;
+}
+/* fin del header*/
+
+/*inicio del main*/
+.titulo-parrafo-principal p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding: .625rem;
+}
+.contenedor-cards {
+  display: flex;
+  flex-direction: row ;
+}
+
+.sectionPrincipal .titulo-parrafo-principal {
+      width: 70%;
+      margin: 0 auto;
+      padding: 5rem 2.5rem 2.5rem 2.5rem;
+      text-align: center;
+      font-family: 'Bayon', sans-serif;
+}
+/*fin de main*/
+
+/*RESULTADOS HTML*/
+
+/* inicio header*/
+.tituloPrincipalResultados h1{
+  padding: 10vh;
+  font-family: 'Bayon', sans-serif;
+  color: white;
+}
+.tituloPrincipalResultados h1{
+  color: #ba455e;
+}
+/*fin de header*/
+
+/*inicio del main*/
+.segundaSectionR{
+  display: flex;
+  background-color: white;
+}
+.imgSegundaSection{
+margin: auto;
+}
+.terceraSectionR{
+  display: flex;
+  background-color: white;
+  justify-content: center;
+align-items: center;
+}
+.terceraSectionR .tituloParrafoR{
+  width: 50%;
+  padding: 2.5rem;
+  text-align: center;
+  color: black;
+
+
+}
+.tituloParrafoR h2{
+  font-family: 'Bayon', sans-serif;
+
+}
+.tituloParrafoR p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  
+}
+
+.cuartaSection{
+  display: flex;
+  background-color: white;
+
+justify-content: center;
+align-items: center;
+}
+
+
+.tituloParrafoResultado{
+  width: 50%;
+  padding: 2.5rem;
+  text-align: center;
+  color: black;
+
+}
+.tituloParrafoResultado h2{
+  font-family: 'Bayon', sans-serif;
+}
+.tituloParrafoResultado p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+
+}
+/*fin del main*/
+
+/* CONTACTOS HTML*/
+
+/*inicio header*/
+.tituloPrincipalContacto{
+  padding: 10vh;
+  font-family: 'Bayon', sans-serif;
+  color: white;
+}
+.tituloPrincipalContacto h1{
+  color: #ba455e;
+}
+/*fin header*/
+
+/*inicio main*/
+.conteinerContacto{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.tituloParrafoContacto{
+  text-align: center;
+
+
+margin: 30% 0 20% 0;
+}
+.tituloParrafoContacto h2{
+  font-family: 'Bayon', sans-serif;
+  text-align: center;
+
+}
+.tituloParrafoContacto p{
+  margin:2.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.formulario{
+
+  text-align: center;
+padding: 3% 15% 3% 15%;
+margin: 20% 15% 15% 15%;
+font-family: 'Bayon', sans-serif;
+box-shadow: .625rem .3125rem .3125rem .625rem  #ba455e;
+}
+
+#nombre{
+ width: 100%;
+border: none;
+border-bottom: .0625rem solid #ba455e;
+padding: .625rem;}
+#email{ width: 100%;
+  border: none;
+  border-bottom: .0625rem solid rgb(187, 68, 94);
+padding: .625rem;}
+#telefono{
+  width: 100%;
+  border: none;
+  border-bottom: .0625rem solid rgb(187, 68, 94);
+padding: .625rem;}
+#comentario{ 
+  width: 100%;
+  border: none;
+  border-bottom: .0625rem solid #bb445e;
+padding: .625rem;}
+
+.botonFormulario{
+
+text-align: center;
+justify-content: center;
+margin: .625rem;
+}
+ .botonFormulario h2{
+  font-family: 'Bayon', sans-serif;
+  background-color: #bb445e;
+  padding: .625rem;
+ }
+
+
+
+
+
+
+
+
+@media(max-width:1024px){
+  .navbar .container{
+    display: flex;
+    width: 100%;
+  
+  }
+.contenedor-cards{
+  border-radius: 3.125rem;
+}
+.card{
+  background-color: #bb445e;
+}
+.img1{
+  display: flex;
+  width: 18.75rem;
+  height: 15.625rem;
+
+}
+
+
+}
+
+@media(max-width:991px){
+  .navbar .container{
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
+
+@media(max-width:768px){
+
+
+  .navbar>.container{
+    display: flex;
+
+ 
+  }
+  .navbar-expand-md{
+    flex-wrap: wrap;
+  }
+.img-logo{
+
+  width: 100%;
+
+}
+.navbar-collapse {
+  justify-content: center;
+}
+
+.navbar{
+  flex-direction: column;
+  align-content: center;
+  gap: .9375rem
+}
+.titulo-general{
+  padding: 15vh;
+}
+.sectionPrincipal{
+flex-direction: column;
+
+}
+.sectionPrincipal .parrafo-principal{
+
+  width: 100%;
+  text-align: justify;
+
+}
+.img1{
+
+width: auto;
+  justify-content: center;
+}
+
+.gridCuerpo{
+grid-template: repeat(4,18.75rem) / 1fr;
+width: 100%;
+
+}
+.gridImg{
+  width: auto;
+}
+.gridImgSecundaria{
+  order: 3 ;
+  width: 18.75rem;
+}
+.gridParrafoSecundario{
+  order: 4 ;
+}
+.sectionPrincipal .titulo-parrafo-principal {
+  width: 100%;
+  text-align: center;
+
+  
+}
+.terceraSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: 1.875rem;
+}
+.terceraSection .card-texto{
+  display: block;
+
+}
+.contenedor-cards{
+flex-direction: column;
+}
+.card{
+  width: 60vh;
+
+}
+/*resultados*/
+.terceraSectionR{
+  flex-direction: column;
+}
+.terceraSectionR .tituloParrafoR{
+  width: 100%;
+}
+
+.cuartaSection{
+  flex-direction: column;
+}
+.tituloParrafoResultado{
+  width: 100%;
+}
+/*contacto*/
+.conteinerContacto{
+display: block;
+}
+.tituloParrafoContacto{
+  margin: 2.5rem 0 0 0;
+}
+
+
+/*footer*/
+.footer-responsive{
+  display: flex;
+}
+.contactoPie{
+  display: none;
+}
+.descripcionPie{
+  width: 100%;
+}
+}
+
+@media(max-width:767px){
+  .navbar>.container{
+    flex-direction: row;
+  }
+
+}
+
+@media(max-width:321px){
+  .titulo-general h1{
+    font-size: 2rem;
+  }
+  .titulo-general p{
+    font-size: .9375rem;
+  }
+.terceraSection .card-texto{
+  display: block;
+  text-align: center;
+}
+
+}
+@media(max-width:320px){
+/*navbar*/
+.navbar>.container {
+    display: flex;
+    flex-direction: row;
+  }
+  /* index*/
+  .sectionPrincipal{
+    flex-direction: column ;
+  }
+  .titulo-general{
+    padding: 3.125rem;
+  }
+  .titulo-general h1{
+    font-size: 2.5rem;
+  }
+.titulo-general p{
+  font-size: 1.125rem;
+}
+
+  .parrafo-titulo{
+    display: none;
+  }
+  .sectionPrincipal .titulo-parrafo-principal{
+    padding: 1rem;
+  }
+  .terceraSection {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+
+}
+.terceraSection .card-texto{
+width: 100%;
+}
+.card-texto p{ text-align: center;}
+
+
+.img-logo{
+  width: 40%;
+}
+.footer-responsive{
+display: block;
+width: 100%;
+}
+.descripcionPie{
+  display: none;
+
+}
+.contactoPie{
+  display: block;
+  width: 100%;
+
+}
+/*quienes somos*/
+.gridCuerpo{
+display: grid;
+width: 100%;
+grid-template-rows: 18.75rem 31.25rem 18.75rem 18.75rem;
+grid-template-columns:100%;
+justify-items: center;}
+.gridImgSecundaria{
+  width: 100%;
+}
+/* como trabajamos*/
+.tituloPrincipalct h1{
+  font-size: 2.5rem;
+}
+/*resultados*/
+.tituloPrincipalResultados h1{
+  font-size: 7vh;
+}
+.terceraSectionR {
+  flex-direction: column;
+}
+
+.terceraSectionR .tituloParrafoR {
+  width: 100%;
+}
+.cuartaSection{
+  flex-direction: column;
+}
+.tituloParrafoResultado{
+  width: 100%;
+}
+.img2{
+  width: 100%;
+}
+/*contactos*/
+.tituloParrafoContacto{
+  padding: 1.25rem;
+}
+}
