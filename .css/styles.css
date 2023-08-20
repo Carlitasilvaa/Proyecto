@@ -15,22 +15,8 @@ font-family: 'Poppins', sans-serif; */
   border-bottom: 0.3125rem solid #ba455e; }
 
 .header {
-  background-image: url("");
+  background-image: url("../");
   background-size: cover; }
-  .header div {
-    padding: 10vh 0; }
-    .header div p {
-      text-align: center;
-      font-size: 1.25rem;
-      color: white;
-      font-family: 'Poppins', sans-serif;
-      font-weight: bold; }
-    .header div h1 {
-      text-align: center;
-      letter-spacing: .25rem;
-      font-size: 3.125rem;
-      font-family: 'Bayon', sans-serif;
-      color: #ba455e; }
 
 .img-logo {
   width: 100%;
@@ -55,5 +41,20 @@ font-family: 'Poppins', sans-serif; */
     text-decoration: none;
     color: white;
     font-size: 1.25rem; }
+
+.titulo-general {
+  padding: 10vh 0; }
+  .titulo-general p {
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold; }
+  .titulo-general h1 {
+    text-align: center;
+    letter-spacing: .25rem;
+    font-size: 3.125rem;
+    font-family: 'Bayon', sans-serif;
+    color: #ba455e; }
 
 /*main index*/

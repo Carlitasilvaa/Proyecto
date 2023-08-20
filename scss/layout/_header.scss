@@ -2,26 +2,8 @@
     border-bottom: .3125rem solid rgb(186, 69, 94);}
 
 .header{
-    background-image: url("") ;
+    background-image: url("../") ;
     background-size: cover;
-    div{
-        padding: 10vh 0;
-        
-        p{
-            text-align: center;
-            font-size: 1.25rem;
-            color: white;
-            font-family: 'Poppins', sans-serif;
-            font-weight: bold;
-        }
-        h1{
-            text-align: center;
-            letter-spacing: .25rem;
-            font-size: 3.125rem;
-            font-family: 'Bayon', sans-serif;
-            color: rgb(186, 69, 94);
-        }
-    }
 }
 
 .img-logo{
@@ -50,5 +32,22 @@
             color: white;
             font-size: 1.25rem;
         }
+    }
+}
+.titulo-general{
+    padding: 10vh 0;
+    p{
+        text-align: center;
+        font-size: 1.25rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    h1{
+        text-align: center;
+        letter-spacing: .25rem;
+        font-size: 3.125rem;
+        font-family: 'Bayon', sans-serif;
+        color: rgb(186, 69, 94);
     }
 }
