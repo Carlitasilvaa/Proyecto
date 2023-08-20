@@ -15,7 +15,7 @@ font-family: 'Poppins', sans-serif; */
   border-bottom: 0.3125rem solid #ba455e; }
 
 .header {
-  background-image: url("");
+  background-image: url("../assets/img/fondo.jpg");
   background-size: cover; }
 
 .img-logo {
@@ -58,3 +58,97 @@ font-family: 'Poppins', sans-serif; */
     color: #ba455e; }
 
 /*main index*/
+.sectionPincipal {
+  display: flex;
+  width: 100%; }
+
+.titulo-parrafo-principal {
+  width: 50%;
+  margin: 0 auto;
+  padding: 5rem 2.5rem 2.5rem 2.5rem;
+  text-align: center;
+  font-family: 'Bayon', sans-serif; }
+
+.parrafo-principal {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; }
+
+.row {
+  margin: 1.25rem; }
+
+.card {
+  width: 30%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: center;
+  box-shadow: 0 0 0.625rem #ba455e;
+  border-radius: 1rem; }
+
+.card-body {
+  font-family: 'Bayon', sans-serif; }
+  .card-body p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold; }
+
+.tercerasection {
+  display: flex;
+  justify-content: space-around;
+  margin: 3.125rem;
+  padding: 3.125rem; }
+  .tercerasection article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%; }
+    .tercerasection article p {
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold; }
+    .tercerasection article h2 {
+      font-family: 'Bayon', sans-serif; }
+
+.img1 {
+  display: flex;
+  width: 31.25rem; }
+
+.boton-cuarta-section {
+  text-align: center;
+  margin: 2rem;
+  background-size: cover; }
+  .boton-cuarta-section div a h3 {
+    font-family: 'Bayon', sans-serif;
+    padding: .625rem;
+    background-color: #ba455e;
+    border-radius: 50px 50px 50px 50px; }
+
+/*footer*/
+footer {
+  background-color: black;
+  display: flex; }
+
+.descripcionPie {
+  width: 50%;
+  padding: 2.5rem 2.5rem 2.5rem 3.75rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: white; }
+
+.contactoPie {
+  width: 50%;
+  padding: 5rem 2.5rem 2.5rem 2.5rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: white; }
+  .contactoPie h2 {
+    font-family: 'Bayon', sans-serif; }
+
+.info-pie {
+  width: 100%; }

@@ -77,7 +77,7 @@ header p{
 
 /* fin header 
 
-/* main index */
+/* main index 
 
 .sectionPrincipal{
   display: flex;
@@ -157,9 +157,9 @@ margin: 1.25rem;
     
 }
 
-/* fin main index */
+/* fin main index 
 
-/* footer */
+/* footer 
 footer{
   background-color: rgb(0, 0, 0);
   display: flex;
