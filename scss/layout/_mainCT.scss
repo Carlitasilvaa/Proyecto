@@ -1,0 +1,19 @@
+.sectionPrincipal{
+    margin: 3.125rem
+}
+.titulo-parrafo-principal{
+    width: 70%;
+    margin: 0 auto;
+    padding: 5rem 2.5rem 2.5rem 2.5rem;
+    text-align: center;
+    font-family: 'Bayon', sans-serif;
+    p{
+        font-family:$font-poppins;
+        font-weight: bold;
+        padding: .625rem;
+    }
+}
+.contenedor-cards{
+    display: flex;
+    flex-direction: row;
+}

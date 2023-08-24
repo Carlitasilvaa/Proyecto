@@ -3,20 +3,18 @@ footer{
     display: flex;
 }
 .descripcionPie{
-    width: 50%;
+    @include width;
     padding: 2.5rem 2.5rem 2.5rem 3.75rem;
-    margin: 0 auto;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: $font-poppins;
     font-weight: bold;
     color: white;
 }
 .contactoPie{
-    width: 50%;
+    @include width;
     padding: 5rem 2.5rem 2.5rem 2.5rem;
-    margin: 0 auto;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: $font-poppins;
     font-weight: bold;
     color: white;
     h2{

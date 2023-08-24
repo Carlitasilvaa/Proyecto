@@ -1,0 +1,8 @@
+@mixin width{
+    width: 50%;
+    margin: 0 auto;
+}
+@mixin block{
+    display: block;
+    text-align: center;
+}

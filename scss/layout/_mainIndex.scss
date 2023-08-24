@@ -1,22 +1,22 @@
-.sectionPincipal{
+.sectionPrincipal{
     display: flex;
-    width: 100%;
+    .titulo-parrafo-principal{
+        @include width;
+        padding: 5rem 2.5rem 2.5rem 2.5rem;
+        text-align: center;
+        font-family: 'Bayon', sans-serif;
+    }
+    .parrafo-principal{
+        @include width;
+        padding: 2.5rem;
+        text-align: justify;
+        font-family:$font-poppins;
+        font-weight: bold;
+    }
 }
-.titulo-parrafo-principal{
-    width: 50%;
-    margin: 0 auto;
-    padding:  5rem 2.5rem 2.5rem 2.5rem;
-    text-align: center;
-    font-family: 'Bayon', sans-serif;
-}
-.parrafo-principal{
-    width: 50%;
-    margin: 0 auto;
-    padding: 2.5rem;
-    text-align: justify;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
+
+
+
 .row{
     margin: 1.25rem;
 }
@@ -31,23 +31,23 @@
 .card-body{
     font-family: 'Bayon', sans-serif;
     p{
-        font-family: 'Poppins', sans-serif;
+        font-family: $font-poppins;
         font-weight: bold;
     }
 }
-.tercerasection{
+.terceraSection{
     display: flex;
     justify-content: space-around;
     margin:3.125rem;
     padding: 3.125rem;
-    article{
+    .card-texto{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 50%;
         p{
-            font-family: 'Poppins', sans-serif;
+            font-family: $font-poppins;
             font-weight: bold;
         }
         h2{
@@ -55,21 +55,10 @@
         }
     }
 }
+
+
 .img1{
     display: flex;
     width: 31.25rem;
 }
-.boton-cuarta-section{
-    text-align: center;
-    margin: 2rem;
-    background-size: cover;
-    div{
-        a{
-            h3{  font-family: 'Bayon', sans-serif;
-                padding: .625rem;
-                background-color:#ba455e;
-                border-radius: 50px 50px 50px 50px;
-            }
-        }
-    }
-}
+@import "../components/button-index"

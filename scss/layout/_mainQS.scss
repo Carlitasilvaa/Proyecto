@@ -1,0 +1,31 @@
+.main{
+    background-color: white;
+}
+.gridCuerpo{
+    display: grid;
+    width: 100%;
+    grid-template: repeat(2,1fr) / repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.875rem;
+    font-family:$font-poppins;
+    font-weight: bold;
+        .gridParrafo{
+            text-align: center ;
+            padding: 1.25rem;
+        }
+        .gridParrafoSecundario{
+            text-align: center ;
+            padding: 1.25rem;
+            h2{
+                font-family: 'Bayon', sans-serif;
+                text-align: center;
+            }
+        }
+        .gridImgSecundaria{
+            padding: 0 0 1.875rem 0;
+        }
+    }
+
+

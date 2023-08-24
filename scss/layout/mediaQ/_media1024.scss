@@ -1,0 +1,22 @@
+@media(max-width:1024px){
+/*header general*/
+.navbar 
+    .container{
+        display: flex;
+        width: 100%;
+}
+/*main index*/
+
+.img1{
+    display: flex;
+    width: 18.75rem;
+    height: 15.625rem;
+}
+/*main como trabajamos*/
+.contenedor-cards{
+    border-radius: 3.125rem;
+    .card{
+        background-color: #bb445e;
+    }
+}
+}

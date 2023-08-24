@@ -1,3 +1,4 @@
+/*variables, mixins y funciones*/
 /*tipografias*/
 @import url("https://fonts.googleapis.com/css2?family=Bayon&display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Poppins:wght@300 & display=swap");
@@ -10,11 +11,11 @@ font-family: 'Poppins', sans-serif; */
   box-sizing: border-box; }
 
 /*codigo*/
-/*header*/
+/*header index*/
 .active {
   border-bottom: 0.3125rem solid #ba455e; }
 
-.header {
+header {
   background-image: url("../assets/img/fondo.jpg");
   background-size: cover; }
 
@@ -48,7 +49,7 @@ font-family: 'Poppins', sans-serif; */
     text-align: center;
     font-size: 1.25rem;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold; }
   .titulo-general h1 {
     text-align: center;
@@ -58,24 +59,21 @@ font-family: 'Poppins', sans-serif; */
     color: #ba455e; }
 
 /*main index*/
-.sectionPincipal {
-  display: flex;
-  width: 100%; }
-
-.titulo-parrafo-principal {
-  width: 50%;
-  margin: 0 auto;
-  padding: 5rem 2.5rem 2.5rem 2.5rem;
-  text-align: center;
-  font-family: 'Bayon', sans-serif; }
-
-.parrafo-principal {
-  width: 50%;
-  margin: 0 auto;
-  padding: 2.5rem;
-  text-align: justify;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold; }
+.sectionPrincipal {
+  display: flex; }
+  .sectionPrincipal .titulo-parrafo-principal {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5rem 2.5rem 2.5rem 2.5rem;
+    text-align: center;
+    font-family: 'Bayon', sans-serif; }
+  .sectionPrincipal .parrafo-principal {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2.5rem;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; }
 
 .row {
   margin: 1.25rem; }
@@ -91,24 +89,24 @@ font-family: 'Poppins', sans-serif; */
 .card-body {
   font-family: 'Bayon', sans-serif; }
   .card-body p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold; }
 
-.tercerasection {
+.terceraSection {
   display: flex;
   justify-content: space-around;
   margin: 3.125rem;
   padding: 3.125rem; }
-  .tercerasection article {
+  .terceraSection .card-texto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%; }
-    .tercerasection article p {
-      font-family: 'Poppins', sans-serif;
+    .terceraSection .card-texto p {
+      font-family: "Poppins", sans-serif;
       font-weight: bold; }
-    .tercerasection article h2 {
+    .terceraSection .card-texto h2 {
       font-family: 'Bayon', sans-serif; }
 
 .img1 {
@@ -125,26 +123,30 @@ font-family: 'Poppins', sans-serif; */
     background-color: #ba455e;
     border-radius: 50px 50px 50px 50px; }
 
-/*footer*/
+.boton h3:hover {
+  transform: scale(1.2);
+  background-color: #FF184B; }
+
+/*footer */
 footer {
   background-color: black;
   display: flex; }
 
 .descripcionPie {
   width: 50%;
-  padding: 2.5rem 2.5rem 2.5rem 3.75rem;
   margin: 0 auto;
+  padding: 2.5rem 2.5rem 2.5rem 3.75rem;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: white; }
 
 .contactoPie {
   width: 50%;
-  padding: 5rem 2.5rem 2.5rem 2.5rem;
   margin: 0 auto;
+  padding: 5rem 2.5rem 2.5rem 2.5rem;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: white; }
   .contactoPie h2 {
@@ -152,3 +154,311 @@ footer {
 
 .info-pie {
   width: 100%; }
+
+/*header quienes somos, como trabajamos, resultados y contacto*/
+header {
+  background-image: url("../assets/fondo2.jpg");
+  background-size: cover; }
+
+.tituloPrincipal {
+  padding: 10vh;
+  font-family: 'Bayon', sans-serif;
+  color: white;
+  text-align: center; }
+  .tituloPrincipal h1 {
+    color: #ba455e; }
+
+/* main quienes somos*/
+.main {
+  background-color: white; }
+
+.gridCuerpo {
+  display: grid;
+  width: 100%;
+  grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.875rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold; }
+  .gridCuerpo .gridParrafo {
+    text-align: center;
+    padding: 1.25rem; }
+  .gridCuerpo .gridParrafoSecundario {
+    text-align: center;
+    padding: 1.25rem; }
+    .gridCuerpo .gridParrafoSecundario h2 {
+      font-family: 'Bayon', sans-serif;
+      text-align: center; }
+  .gridCuerpo .gridImgSecundaria {
+    padding: 0 0 1.875rem 0; }
+
+/*main como trabajamos*/
+.sectionPrincipal {
+  margin: 3.125rem; }
+
+.titulo-parrafo-principal {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5rem 2.5rem 2.5rem 2.5rem;
+  text-align: center;
+  font-family: 'Bayon', sans-serif; }
+  .titulo-parrafo-principal p {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding: .625rem; }
+
+.contenedor-cards {
+  display: flex;
+  flex-direction: row; }
+
+/* main resultados*/
+.terceraSectionR {
+  display: flex;
+  margin: 3.125rem;
+  background-color: white;
+  justify-content: center;
+  align-items: center; }
+  .terceraSectionR .tituloParrafoR {
+    width: 50%;
+    padding: 2.5rem;
+    text-align: center;
+    color: black; }
+    .terceraSectionR .tituloParrafoR p {
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold; }
+
+.cuartaSection {
+  display: flex;
+  margin: 3.125rem;
+  background-color: white;
+  justify-content: center;
+  align-items: center; }
+  .cuartaSection .tituloParrafoResultado {
+    width: 50%;
+    padding: 2.5rem;
+    text-align: center;
+    color: black; }
+    .cuartaSection .tituloParrafoResultado p {
+      font-family: "Poppins", sans-serif;
+      font-weight: bold; }
+
+/*main contactos*/
+.conteinerContacto {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr); }
+  .conteinerContacto .tituloParrafoContacto {
+    text-align: center;
+    margin: 30% 0 20% 0; }
+    .conteinerContacto .tituloParrafoContacto h2 {
+      font-family: 'Bayon', sans-serif;
+      text-align: center; }
+    .conteinerContacto .tituloParrafoContacto p {
+      margin: 2.5rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: bold; }
+
+.formulario {
+  text-align: center;
+  padding: 3% 15% 3% 15%;
+  margin: 20% 15% 15% 15%;
+  font-family: 'Bayon', sans-serif;
+  box-shadow: .625rem .3125rem .3125rem .625rem  #ba455e; }
+  .formulario #nombre, .formulario #email, .formulario #telefono, .formulario #comentario {
+    width: 100%;
+    border: none;
+    border-bottom: .0625rem solid #ba455e;
+    padding: .625rem; }
+
+.botonFormulario {
+  text-align: center;
+  justify-content: center;
+  margin: .625rem; }
+  .botonFormulario h2 {
+    font-family: 'Bayon', sans-serif;
+    background-color: #bb445e;
+    padding: .625rem; }
+
+.boton-contacto h2:hover {
+  transform: scale(1.2);
+  background-color: #FF184B; }
+
+/*media query*/
+@media (max-width: 1024px) {
+  /*header general*/
+  .navbar .container {
+    display: flex;
+    width: 100%; }
+  /*main index*/
+  .img1 {
+    display: flex;
+    width: 18.75rem;
+    height: 15.625rem; }
+  /*main como trabajamos*/
+  .contenedor-cards {
+    border-radius: 3.125rem; }
+    .contenedor-cards .card {
+      background-color: #bb445e; } }
+
+@media (max-width: 991px) {
+  /*header general*/
+  .navbar .container {
+    flex-direction: row;
+    width: 100%; } }
+
+@media (max-width: 768px) {
+  /*header general*/
+  .navbar-expand-md {
+    flex-wrap: wrap; }
+  .navbar > .container {
+    display: flex; }
+    .navbar > .container .img-logo {
+      width: 100%; }
+  .navbar {
+    flex-direction: column;
+    align-content: center;
+    gap: .9375rem; }
+    .navbar .navbar-collapse {
+      justify-content: center; }
+  .titulo-general {
+    padding: 15vh; }
+  /* main index*/
+  .sectionPrincipal {
+    flex-direction: column; }
+    .sectionPrincipal .titulo-parrafo-principal {
+      width: 100%;
+      text-align: center; }
+    .sectionPrincipal .parrafo-principal {
+      width: 100%;
+      text-align: justify; }
+  .terceraSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 1.875rem; }
+    .terceraSection .card-texto {
+      display: block; }
+    .terceraSection .img1 {
+      width: auto;
+      justify-content: center; }
+  /*main quienes somos*/
+  .gridCuerpo {
+    grid-template: repeat(4, 18.75rem)/1fr;
+    width: 100%; }
+    .gridCuerpo .gridImg {
+      width: auto; }
+    .gridCuerpo .gridParrafoSecundario {
+      order: 4; }
+    .gridCuerpo .gridImgSecundaria {
+      order: 3;
+      width: 18.75rem; }
+  /*main como trabajamos*/
+  .contenedor-cards {
+    flex-direction: column; }
+    .contenedor-cards .card {
+      width: 60vh; }
+  /*main resultados*/
+  .terceraSectionR {
+    flex-direction: column; }
+    .terceraSectionR .tituloParrafoR {
+      width: 100%; }
+  .cuartaSection {
+    flex-direction: column; }
+    .cuartaSection .tituloParrafoResultado {
+      width: 100%; }
+  /*main contacto*/
+  .conteinerContacto {
+    display: block; }
+    .conteinerContacto .tituloParrafoContacto {
+      margin: 2.5rem 0 0 0; }
+  /*footer index*/
+  .footer-responsive {
+    display: flex; }
+  /*footer general*/
+  .contactoPie {
+    display: none; }
+  .descripcionPie {
+    width: 100%; } }
+
+@media (max-width: 321px) {
+  /*header index*/
+  .titulo-general h1 {
+    font-size: 2rem; }
+  .titulo-general p {
+    font-size: .9375rem; }
+  /*main index*/
+  .terceraSection .card-texto {
+    display: block;
+    text-align: center; } }
+
+@media (max-width: 320px) {
+  /*navbar general*/
+  .navbar > .container {
+    display: flex;
+    flex-direction: row; }
+    .navbar > .container .img-logo {
+      width: 40%; }
+  .titulo-general {
+    padding: 3.125rem; }
+  .parrafo-titulo {
+    display: none; }
+  h1 {
+    font-size: 2.5rem; }
+  p {
+    font-size: 1.125rem; }
+  /*main index*/
+  .sectionPrincipal {
+    flex-direction: column;
+    margin: auto; }
+    .sectionPrincipal .titulo-parrafo-principal {
+      padding: 1rem; }
+  .terceraSection {
+    display: block;
+    text-align: center;
+    flex-direction: column; }
+    .terceraSection .card-texto {
+      width: 100%; }
+    .terceraSection p {
+      text-align: center; }
+  /*footer index*/
+  .footer-responsive {
+    display: block;
+    width: 100%; }
+  /*footer general*/
+  .descripcionPie {
+    display: none; }
+  .contactoPie {
+    display: block;
+    width: 100%; }
+  /*main quienes somos*/
+  .gridCuerpo {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 18.75rem 31.25rem 18.75rem 18.75rem;
+    grid-template-columns: 100%;
+    justify-items: center; }
+    .gridCuerpo .gridImgSecundaria {
+      width: 100%; }
+  /*main como trabajamos*/
+  .tituloPrincipalct h1 {
+    font-size: 2.5rem; }
+  /*header resultados*/
+  .tituloPrincipal h1 {
+    font-size: 7vh; }
+  /*main resultados*/
+  .terceraSectionR {
+    flex-direction: column; }
+    .terceraSectionR .tituloParrafoR {
+      width: 100%; }
+  .cuartaSection {
+    flex-direction: column; }
+    .cuartaSection .tituloParrafoResultado {
+      width: 100%; }
+  /* main contactos*/
+  .tituloParrafoContacto {
+    padding: 1.25rem; } }

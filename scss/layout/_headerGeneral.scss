@@ -1,0 +1,14 @@
+header{
+    background-image:url("../assets/fondo2.jpg");
+    background-size: cover;
+}
+
+.tituloPrincipal{
+    padding: 10vh;
+    font-family: 'Bayon', sans-serif;
+    color: white;
+    text-align: center;
+    h1{
+        color:$color-titulos;
+    }
+}

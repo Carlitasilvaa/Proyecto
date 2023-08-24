@@ -1,0 +1,34 @@
+.terceraSectionR{
+    display: flex;
+    margin: 3.125rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    .tituloParrafoR{
+        width: 50%;
+        padding: 2.5rem;
+        text-align: center;
+        color: black;
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+        }
+    }
+}
+.cuartaSection{
+    display: flex;
+    margin: 3.125rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    .tituloParrafoResultado{
+        width: 50%;
+        padding: 2.5rem;
+        text-align: center;
+        color: black;
+        p{
+            font-family:$font-poppins;
+            font-weight: bold;
+        }
+    }
+}

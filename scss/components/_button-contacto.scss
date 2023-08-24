@@ -1,0 +1,14 @@
+.botonFormulario{
+    text-align: center;
+    justify-content: center;
+    margin: .625rem;
+    h2{
+        font-family: 'Bayon', sans-serif;
+        background-color: #bb445e;
+        padding: .625rem;
+    }
+}
+.boton-contacto h2:hover{
+    transform: scale(1.2);
+    background-color: #FF184B;
+}

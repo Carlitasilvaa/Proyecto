@@ -1,13 +1,40 @@
-/*tipografias*/
+/*variables, mixins y funciones*/
+@import "./utilities/variables";
+@import "./utilities/mixins";
+/*tipografias*/ 
 @import "./bases/_typo.scss";
 
 /*reset*/
 @import "./bases/_reset.scss";
 
 /*codigo*/
-/*header*/
-@import "./layout/header";
+/*header index*/
+@import "./layout/headerIndex";
 /*main index*/
 @import "./layout/mainIndex";
-/*footer*/
+/*footer */
 @import "./layout/footer";
+
+
+/*header quienes somos, como trabajamos, resultados y contacto*/
+@import "./layout/headerGeneral";
+
+/* main quienes somos*/
+@import "./layout/mainQS";
+
+/*main como trabajamos*/
+@import "./layout/mainCT";
+
+/* main resultados*/
+@import "./layout/mainResultados";
+
+/*main contactos*/
+@import "./layout/mainContacto";
+
+
+/*media query*/
+@import "./layout/mediaQ/media1024";
+@import "./layout/mediaQ/media991";
+@import "./layout/mediaQ/media768";
+@import "./layout/mediaQ/media321";
+@import "./layout/mediaQ/media320";

@@ -1,0 +1,105 @@
+@media(max-width:768px){
+/*header general*/
+.navbar-expand-md{
+    flex-wrap: wrap;
+}
+.navbar>.container{
+    display: flex;
+    .img-logo{
+    width: 100%;
+    }
+}
+.navbar{
+    flex-direction: column;
+    align-content: center;
+    gap: .9375rem;
+    .navbar-collapse{
+        justify-content: center;
+    }
+}
+.titulo-general{
+    padding: 15vh;
+}
+/* main index*/
+.sectionPrincipal{
+    flex-direction: column;
+    .titulo-parrafo-principal {
+        width: 100%;
+        text-align: center;
+    }
+    .parrafo-principal{
+        width: 100%;
+        text-align: justify;
+    }
+}
+.terceraSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 1.875rem;
+    .card-texto{
+        display: block;
+    }
+    .img1{
+        width: auto;
+        justify-content: center;
+    }
+}
+
+/*main quienes somos*/
+.gridCuerpo{
+    grid-template: repeat(4,18.75rem) / 1fr;
+    width: 100%;
+    .gridImg{
+        width: auto;
+    }
+    .gridParrafoSecundario{
+        order: 4 ;
+    }
+    .gridImgSecundaria{
+        order: 3 ;
+        width: 18.75rem;
+    }
+}
+/*main como trabajamos*/
+.contenedor-cards{
+    flex-direction: column;
+    .card{
+        width: 60vh;
+    }
+}
+/*main resultados*/
+.terceraSectionR{
+    flex-direction: column;
+    .tituloParrafoR{
+        width: 100%;
+    }
+}
+.cuartaSection{
+    flex-direction: column;
+    .tituloParrafoResultado{
+        width: 100%;
+    }
+}
+/*main contacto*/
+.conteinerContacto{
+    display: block;
+    .tituloParrafoContacto{
+        margin: 2.5rem 0 0 0;
+    }
+}
+/*footer index*/
+.footer-responsive{
+    display: flex;
+}
+/*footer general*/
+.contactoPie{
+    display: none;
+}
+.descripcionPie{
+    width: 100%;
+}
+}

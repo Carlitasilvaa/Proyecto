@@ -1,0 +1,94 @@
+@media(max-width:320px){
+/*navbar general*/
+.navbar>{
+    .container {
+    display: flex;
+    flex-direction: row;
+        .img-logo{
+            width: 40%;
+        }
+    }
+}
+.titulo-general{
+    padding: 3.125rem;
+}
+    .parrafo-titulo{
+        display: none;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.125rem;
+    }
+
+/*main index*/
+.sectionPrincipal{
+    flex-direction: column ;
+    margin: auto;
+    .titulo-parrafo-principal{
+        padding: 1rem;
+    }
+}
+.terceraSection {
+    @include block;
+    flex-direction: column;
+    .card-texto{
+        width: 100%;
+        }
+        p{ 
+            text-align: center;
+        }
+}
+/*footer index*/
+.footer-responsive{
+    display: block;
+    width: 100%;
+}
+/*footer general*/
+.descripcionPie{
+    display: none;
+}
+.contactoPie{
+    display: block;
+    width: 100%;
+}
+/*main quienes somos*/
+.gridCuerpo{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 18.75rem 31.25rem 18.75rem 18.75rem;
+    grid-template-columns:100%;
+    justify-items: center;
+    .gridImgSecundaria{
+        width: 100%;
+    }
+}
+/*main como trabajamos*/
+.tituloPrincipalct h1{
+    font-size: 2.5rem;
+}
+/*header resultados*/
+.tituloPrincipal{
+    h1{
+        font-size: 7vh;
+    }
+}
+/*main resultados*/
+.terceraSectionR {
+    flex-direction: column;
+    .tituloParrafoR {
+        width: 100%;
+    }
+}
+.cuartaSection{
+    flex-direction: column;
+    .tituloParrafoResultado{
+        width: 100%;
+    }
+}
+/* main contactos*/
+.tituloParrafoContacto{
+    padding: 1.25rem;
+}
+}

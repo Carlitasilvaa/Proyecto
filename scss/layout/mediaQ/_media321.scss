@@ -1,0 +1,17 @@
+@media(max-width:321px){
+    /*header index*/
+.titulo-general{
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: .9375rem;
+    }
+}
+/*main index*/
+.terceraSection {
+    .card-texto{
+        @include block;
+    }
+}
+}
