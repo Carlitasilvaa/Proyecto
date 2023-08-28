@@ -6,9 +6,11 @@
         font-family: 'Bayon', sans-serif;
         background-color: #bb445e;
         padding: .625rem;
+        border-radius: 50px 50px 50px 50px;
     }
 }
 .boton-contacto h2:hover{
     transform: scale(1.2);
     background-color: #FF184B;
+    transition: 1s;
 }

@@ -23,6 +23,7 @@
 /* main index*/
 .sectionPrincipal{
     flex-direction: column;
+    margin: auto;
     .titulo-parrafo-principal {
         width: 100%;
         text-align: center;
@@ -74,12 +75,14 @@
 /*main resultados*/
 .terceraSectionR{
     flex-direction: column;
+    margin: auto;
     .tituloParrafoR{
         width: 100%;
     }
 }
 .cuartaSection{
     flex-direction: column;
+    margin: auto;
     .tituloParrafoResultado{
         width: 100%;
     }
