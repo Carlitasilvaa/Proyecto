@@ -154,6 +154,9 @@ header {
   background-color: #FF184B;
   transition: 1s; }
 
+.boton {
+  border: none; }
+
 /*footer */
 footer {
   background-color: black;
@@ -313,6 +316,9 @@ header {
   transform: scale(1.2);
   background-color: #FF184B;
   transition: 1s; }
+
+.boton-contacto {
+  border: none; }
 
 /*media query*/
 @media (max-width: 1024px) {
