@@ -1,7 +1,21 @@
 @media(max-width:991px){
 /*header general*/  
-.navbar .container{
-    flex-direction: row;
-    width: 100%;
+.navbar-expand-md{
+    flex-wrap: wrap;
+}
+.navbar>.container{
+flex-direction: column;
+    .img-logo{
+    display:flex;
+    width: 12.5rem;
+    }
+}
+.navbar{
+    flex-direction: column;
+    align-content: center;
+    gap: .9375rem;
+    .navbar-collapse{
+        justify-content: center;
+    }
 }
 }

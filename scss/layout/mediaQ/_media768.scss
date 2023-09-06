@@ -4,9 +4,10 @@
     flex-wrap: wrap;
 }
 .navbar>.container{
-    display: flex;
+flex-direction: column;
     .img-logo{
-    width: 100%;
+    display:flex;
+    width: 12.5rem;
     }
 }
 .navbar{
@@ -94,6 +95,9 @@
         margin: 2.5rem 0 0 0;
     }
 }
+/*header 404*/
+.img-logo-404{
+margin: 0 auto;}
 /*footer index*/
 .footer-responsive{
     display: flex;

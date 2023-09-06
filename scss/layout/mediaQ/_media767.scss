@@ -1,0 +1,16 @@
+@media(max-width:767px){
+/*header general*/
+.navbar>.container{
+    flex-direction: row;
+    align-content: center;
+}
+
+/*footer general*/
+.descripcionPie{
+    display: none;
+    }
+    .contactoPie{
+        display: block;
+        width: 100%;
+    }
+}

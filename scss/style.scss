@@ -31,10 +31,18 @@
 /*main contactos*/
 @import "./layout/mainContacto";
 
+/*header 404*/
+@import "./layout/header404";
+
+/*main 404*/
+@import "./layout/main404";
+
 
 /*media query*/
 @import "./layout/mediaQ/media1024";
 @import "./layout/mediaQ/media991";
 @import "./layout/mediaQ/media768";
+@import "./layout/mediaQ/media767";
+@import "./layout/mediaQ/media342";
 @import "./layout/mediaQ/media321";
 @import "./layout/mediaQ/media320";

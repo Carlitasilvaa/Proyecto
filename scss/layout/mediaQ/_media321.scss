@@ -15,4 +15,21 @@
         @include block;
     }
 }
+/*main 404*/
+.titulo-general{
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+}
+/*footer general*/
+.descripcionPie{
+display: none;
+}
+.contactoPie{
+    display: block;
+    width: 100%;
+}
 }
